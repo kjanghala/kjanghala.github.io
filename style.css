@@ -1,0 +1,52 @@
+/*taken from: https://fdossena.com/?p=html5cool/buttons/i.frag*/
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #ecb3ff;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    text-align:center;
+    transition: all 0.2s;
+    }
+a.button1:hover{
+    color:#ecb3ff;
+    border: #ecb3ff;
+    }
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+ }
+}
+body{
+    color: #000000;
+    font-family:'Roboto',sans-serif;
+    font-style:;
+}
+table {
+    border:3px solid #000000;
+    border-collapse:collapse;
+    padding:10px;
+    text-align:center;
+}
+th {
+    border:3px solid #000000;
+    border-collapse:collapse;
+    padding:10px;
+    text-align:center;
+    color:#ecb3ff
+}
+td {
+    border:3px solid #000000;
+    border-collapse:collapse;
+    padding:10px;
+    text-align:left;  
+}
+td:hover {
+    color: #ecb3ff;
+}
